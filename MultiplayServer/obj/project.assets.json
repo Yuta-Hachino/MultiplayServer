@@ -59,6 +59,18 @@
           "lib/netstandard2.0/Grpc.Core.Api.dll": {}
         }
       },
+      "LogicLooper/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Cysharp.Threading.LogicLooper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cysharp.Threading.LogicLooper.dll": {}
+        }
+      },
       "MagicOnion/3.0.11": {
         "type": "package",
         "dependencies": {
@@ -894,6 +906,20 @@
         "lib/netstandard2.0/Grpc.Core.Api.dll",
         "lib/netstandard2.0/Grpc.Core.Api.pdb",
         "lib/netstandard2.0/Grpc.Core.Api.xml"
+      ]
+    },
+    "LogicLooper/1.0.2": {
+      "sha512": "NKD8s5lesu9+/YKXN/ncI3LRECaVLIfjniIWqi2so7psgjLQ7SPOjixw5yfj4Z4IkL1WrVeLfCunMiJc6Gw+UA==",
+      "type": "package",
+      "path": "logiclooper/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Cysharp.Threading.LogicLooper.dll",
+        "lib/netstandard2.0/Cysharp.Threading.LogicLooper.xml",
+        "logiclooper.1.0.2.nupkg.sha512",
+        "logiclooper.nuspec"
       ]
     },
     "MagicOnion/3.0.11": {
@@ -2917,6 +2943,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "LogicLooper >= 1.0.2",
       "MagicOnion.Hosting >= 3.0.11",
       "MessagePack.UnityShims >= 2.1.115"
     ]
@@ -2929,11 +2956,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\02.Project\\StudyVR\\MultiplayServer\\MultiplayServer.csproj",
+      "projectUniqueName": "D:\\Development\\MultiplayServer\\MultiplayServer\\MultiplayServer.csproj",
       "projectName": "MultiplayServer",
-      "projectPath": "D:\\02.Project\\StudyVR\\MultiplayServer\\MultiplayServer.csproj",
+      "projectPath": "D:\\Development\\MultiplayServer\\MultiplayServer\\MultiplayServer.csproj",
       "packagesPath": "C:\\Users\\Sion\\.nuget\\packages\\",
-      "outputPath": "D:\\02.Project\\StudyVR\\MultiplayServer\\obj\\",
+      "outputPath": "D:\\Development\\MultiplayServer\\MultiplayServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2965,6 +2992,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "LogicLooper": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "MagicOnion.Hosting": {
             "target": "Package",
             "version": "[3.0.11, )"
@@ -2989,7 +3020,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.2.20176.6\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\02.Project\\StudyVR\\MultiplayServer\\MultiplayServer.csproj": {}
+    "D:\\Development\\MultiplayServer\\MultiplayServer\\MultiplayServer.csproj": {}
   },
   "projects": {
-    "D:\\02.Project\\StudyVR\\MultiplayServer\\MultiplayServer.csproj": {
+    "D:\\Development\\MultiplayServer\\MultiplayServer\\MultiplayServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\02.Project\\StudyVR\\MultiplayServer\\MultiplayServer.csproj",
+        "projectUniqueName": "D:\\Development\\MultiplayServer\\MultiplayServer\\MultiplayServer.csproj",
         "projectName": "MultiplayServer",
-        "projectPath": "D:\\02.Project\\StudyVR\\MultiplayServer\\MultiplayServer.csproj",
+        "projectPath": "D:\\Development\\MultiplayServer\\MultiplayServer\\MultiplayServer.csproj",
         "packagesPath": "C:\\Users\\Sion\\.nuget\\packages\\",
-        "outputPath": "D:\\02.Project\\StudyVR\\MultiplayServer\\obj\\",
+        "outputPath": "D:\\Development\\MultiplayServer\\MultiplayServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,6 +43,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "LogicLooper": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "MagicOnion.Hosting": {
               "target": "Package",
               "version": "[3.0.11, )"
@@ -67,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.2.20176.6\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "29TrqmoNRffkVFIpXgKtKlptk731cW74re029mlZ5raqTm2z4oU24uKu58CevlzmsBshpwv6GeToWCsVs3OIsQ==",
+  "dgSpecHash": "c8FcGCaSM/tI9B30E7dDsmO0+yqK18w5WnlS/Z0YFQ17PieV1U+nGQF4qT530YyZxG6bvn6l9/dyqWaBjhC/3g==",
   "success": true,
-  "projectFilePath": "D:\\02.Project\\StudyVR\\MultiplayServer\\MultiplayServer.csproj",
+  "projectFilePath": "D:\\Development\\MultiplayServer\\MultiplayServer\\MultiplayServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sion\\.nuget\\packages\\grpc\\2.23.0\\grpc.2.23.0.nupkg.sha512",
     "C:\\Users\\Sion\\.nuget\\packages\\grpc.core\\2.23.0\\grpc.core.2.23.0.nupkg.sha512",
     "C:\\Users\\Sion\\.nuget\\packages\\grpc.core.api\\2.25.0\\grpc.core.api.2.25.0.nupkg.sha512",
+    "C:\\Users\\Sion\\.nuget\\packages\\logiclooper\\1.0.2\\logiclooper.1.0.2.nupkg.sha512",
     "C:\\Users\\Sion\\.nuget\\packages\\magiconion\\3.0.11\\magiconion.3.0.11.nupkg.sha512",
     "C:\\Users\\Sion\\.nuget\\packages\\magiconion.abstractions\\3.0.11\\magiconion.abstractions.3.0.11.nupkg.sha512",
     "C:\\Users\\Sion\\.nuget\\packages\\magiconion.hosting\\3.0.11\\magiconion.hosting.3.0.11.nupkg.sha512",

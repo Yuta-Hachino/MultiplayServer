@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,12 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LogicLooper" Version="1.0.2" />
     <PackageReference Include="MagicOnion.Hosting" Version="3.0.11" />
     <PackageReference Include="MessagePack.UnityShims" Version="2.1.115" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="..\study_test\Assets\Scripts\ServerShared\**\*.cs" LinkBase="LinkFromUnity" />
+    <Compile Include="../StudyVR.UnityClient/Assets/Scripts/ServerShared/**/*.cs" LinkBase="LinkFromUnity" />
   </ItemGroup>
 
 </Project>
